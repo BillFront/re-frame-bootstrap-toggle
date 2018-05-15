@@ -1,4 +1,4 @@
-(defproject re-frame-bootstrap-toggle "0.1.0-alpha2"
+(defproject re-frame-bootstrap-toggle "0.1.0"
   :author "Johannes Barre <igel@igels.net>"
   :description "Bootstrap toggle rewrite for re-frame"
   :url "https://github.com/BillFront/re-frame-bootstrap-toggle"
