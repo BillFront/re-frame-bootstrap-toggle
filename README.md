@@ -1,7 +1,7 @@
 [![Clojars Project](https://img.shields.io/clojars/v/re-frame-bootstrap-toggle.svg)](https://clojars.org/re-frame-bootstrap-toggle)
 
 # re-frame Bootstrap Toggle
-Bootstrap Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles. This is fully reactive rewrite of the JavaScript part for [re-frame]. It doesn't use checkboxes and of course no jQuery!
+Bootstrap Toggle is a flexible Bootstrap plugin that converts checkboxes into toggles. This is fully reactive rewrite of the JavaScript part for [re-frame]. It doesn't use checkboxes and of course no jQuery! And actually, it doesn't even depend on re-frame, it should work in any [Reagent] app.
 
 Visit http://www.bootstraptoggle.com for demos of the abilities.
 
@@ -11,7 +11,7 @@ Visit http://www.bootstraptoggle.com for demos of the abilities.
 
 Add this to your dependencies:
 ```cljs
-[re-frame-bootstrap-toggle "0.1.0"]
+[re-frame-bootstrap-toggle "0.1.1"]
 ```
 
 Also, you need to include a stylesheet from the [css directory](/css).
@@ -70,6 +70,7 @@ While the checkbox introduces some state issues, it's no biggy to just add them 
 We use Bootstrap 3.3, but it seems pretty strait forward to use with Bootstrap 4 as well. First you have to set the `:offstyle`, since the `btn-default` css class was renamed to `btn-secondary`. Then you need to include the css rules mentioned in [this GitHub issue][issue-186].
 
 [re-frame]: https://github.com/Day8/re-frame
+[Reagent]: http://reagent-project.github.io/
 [hiccup]: https://github.com/weavejester/hiccup/wiki/Syntax
 [bootstrap-buttons]: https://getbootstrap.com/docs/3.3/css/#buttons-options
 [issue-186]: https://github.com/minhur/bootstrap-toggle/issues/186
