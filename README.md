@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/re-frame-bootstrap-toggle.svg)](https://clojars.org/re-frame-bootstrap-toggle)
+
 # re-frame Bootstrap Toggle
 Bootstrap Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles. This is fully reactive rewrite of the JavaScript part for [re-frame]. It doesn't use checkboxes and of course no jQuery!
 
@@ -9,7 +11,7 @@ Visit http://www.bootstraptoggle.com for demos of the abilities.
 
 Add this to your dependencies:
 ```cljs
-[com.billfront/re-frame-bootstrap-toggle "0.1.0"]
+[re-frame-bootstrap-toggle "0.1.0"]
 ```
 
 Also, you need to include a stylesheet from the [css directory](/css).
