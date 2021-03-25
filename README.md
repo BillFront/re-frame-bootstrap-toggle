@@ -69,6 +69,14 @@ While the checkbox introduces some state issues, it's no biggy to just add them 
 
 We use Bootstrap 3.3, but it seems pretty strait forward to use with Bootstrap 4 as well. First you have to set the `:offstyle`, since the `btn-default` css class was renamed to `btn-secondary`. Then you need to include the css rules mentioned in [this GitHub issue][issue-186].
 
+
+### Release
+
+Run
+```sh
+lein deploy clojars
+```
+
 [re-frame]: https://github.com/Day8/re-frame
 [Reagent]: http://reagent-project.github.io/
 [hiccup]: https://github.com/weavejester/hiccup/wiki/Syntax
