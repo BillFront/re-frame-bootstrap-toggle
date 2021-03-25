@@ -11,7 +11,7 @@ Visit http://www.bootstraptoggle.com for demos of the abilities.
 
 Add this to your dependencies:
 ```cljs
-[re-frame-bootstrap-toggle "0.1.1"]
+[re-frame-bootstrap-toggle "0.2.0"]
 ```
 
 Also, you need to include a stylesheet from the [css directory](/css).

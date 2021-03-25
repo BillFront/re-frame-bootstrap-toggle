@@ -1,5 +1,6 @@
 (ns re-frame-bootstrap-toggle.core
-  (:require [reagent.core :as reagent]))
+  (:require [reagent.core :as reagent]
+            [reagent.dom :as rdom]))
 
 (defn
   toggle
@@ -45,7 +46,7 @@
                                  "Off")]
                             [:span.toggle-handle.btn.btn-default]]]))
       :component-did-mount (fn [element]
-                             (let [r-element (reagent/dom-node element)
+                             (let [r-element (rdom/dom-node element)
                                    on-label (.querySelector r-element ".toggle-on")
                                    off-label (.querySelector r-element ".toggle-off")
                                    handle (.querySelector r-element ".toggle-handle")]
@@ -55,4 +56,3 @@
                                                               (.-scrollWidth off-label))
                                                          (.-scrollWidth handle)))))
       :display-name (str "bootstrap-toggle_" (random-uuid))})))
-
